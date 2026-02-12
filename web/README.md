@@ -20,3 +20,8 @@ Title | YYYY-MM-DD | HH:MM
 ```
 
 Time is optional; default is `09:00`.
+
+
+## Design language
+
+Modern minimal interface with a soft glass look, high readability, and student-friendly contrast.

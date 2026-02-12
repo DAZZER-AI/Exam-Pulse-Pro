@@ -18,3 +18,8 @@ Native iOS implementation of Exam Pulse Pro.
 ## Build
 
 Build and run using Xcode on macOS (Apple SDKs required).
+
+
+## Design language
+
+Modern minimal SwiftUI interface with calm gradients, card-based sections, and clear hierarchy for student workflows.

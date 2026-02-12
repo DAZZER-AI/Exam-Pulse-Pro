@@ -8,35 +8,36 @@
 </head>
 <body>
   <main class="app-shell">
-    <header class="hero">
-      <p class="badge">Exam Pulse Pro • One-Time Purchase • Offline Ready</p>
-      <h1>Precision Exam Schedule Visualizer</h1>
-      <p>
-        Convert physical exam dates into a local countdown dashboard. Built for students and academics who want
-        a focused, no-network planning tool that stays on-device.
+    <header class="hero glass">
+      <p class="badge">Exam Pulse Pro • One-time purchase • 100% offline</p>
+      <h1>Welcome to your precision exam flow.</h1>
+      <p class="hero-copy">
+        A modern, minimal planner for students and academics. Add physical exam dates and stay calm with clear,
+        local countdowns that never leave your device.
       </p>
+
       <div class="hero-meta">
-        <article>
+        <article class="glass-soft">
           <span>Timezone</span>
           <strong id="timezone-label">Loading...</strong>
         </article>
-        <article>
+        <article class="glass-soft">
           <span>Total Exams</span>
           <strong id="total-exams">0</strong>
         </article>
-        <article>
+        <article class="glass-soft">
           <span>Next Exam</span>
           <strong id="next-exam">None yet</strong>
         </article>
-        <article>
+        <article class="glass-soft">
           <span>Mode</span>
-          <strong>Local only (no networking)</strong>
+          <strong>Local only</strong>
         </article>
       </div>
     </header>
 
     <section class="grid-layout">
-      <aside class="panel">
+      <aside class="panel glass">
         <h2>Add exam</h2>
         <form id="exam-form" class="stack">
           <label>
@@ -70,10 +71,10 @@
         <button id="clear-all" type="button" class="danger">Clear all exams</button>
       </aside>
 
-      <section class="panel" id="dashboard-panel">
+      <section class="panel glass" id="dashboard-panel">
         <div class="dashboard-header">
           <h2>Countdown dashboard</h2>
-          <p class="muted">Sorted by soonest exam date, auto-updating every second.</p>
+          <p class="muted">Sorted by soonest exam date and updates every second.</p>
         </div>
         <div id="exam-list" class="cards"></div>
       </section>
@@ -81,7 +82,7 @@
   </main>
 
   <template id="exam-card-template">
-    <article class="exam-card">
+    <article class="exam-card glass-soft">
       <header>
         <h3></h3>
         <button type="button" class="tiny danger" data-action="delete">Delete</button>
