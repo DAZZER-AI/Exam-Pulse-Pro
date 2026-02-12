@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exam Pulse Pro | Precision Exam Schedule Visualizer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="hero">
+      <p class="badge">Exam Pulse Pro • One-Time Purchase • Offline Ready</p>
+      <h1>Precision Exam Schedule Visualizer</h1>
+      <p>
+        Convert physical exam dates into a local countdown dashboard. Built for students and academics who want
+        a focused, no-network planning tool that stays on-device.
+      </p>
+      <div class="hero-meta">
+        <article>
+          <span>Timezone</span>
+          <strong id="timezone-label">Loading...</strong>
+        </article>
+        <article>
+          <span>Total Exams</span>
+          <strong id="total-exams">0</strong>
+        </article>
+        <article>
+          <span>Next Exam</span>
+          <strong id="next-exam">None yet</strong>
+        </article>
+        <article>
+          <span>Mode</span>
+          <strong>Local only (no networking)</strong>
+        </article>
+      </div>
+    </header>
+
+    <section class="grid-layout">
+      <aside class="panel">
+        <h2>Add exam</h2>
+        <form id="exam-form" class="stack">
+          <label>
+            Exam name
+            <input id="exam-title" name="title" maxlength="80" placeholder="e.g., Physics Midterm" required />
+          </label>
+          <label>
+            Exam date
+            <input id="exam-date" name="date" type="date" required />
+          </label>
+          <label>
+            Exam time (optional)
+            <input id="exam-time" name="time" type="time" />
+          </label>
+          <label>
+            Notes (optional)
+            <textarea id="exam-notes" name="notes" rows="3" maxlength="220" placeholder="Room, materials, reminders..."></textarea>
+          </label>
+          <button type="submit">Add to dashboard</button>
+        </form>
+
+        <hr />
+
+        <h2>Bulk import</h2>
+        <p class="muted">Paste one exam per line as: <code>Title | YYYY-MM-DD | HH:MM</code></p>
+        <textarea id="bulk-input" rows="5" placeholder="Calculus Final | 2026-05-10 | 09:00"></textarea>
+        <button id="bulk-import" type="button" class="secondary">Import lines</button>
+
+        <hr />
+
+        <button id="clear-all" type="button" class="danger">Clear all exams</button>
+      </aside>
+
+      <section class="panel" id="dashboard-panel">
+        <div class="dashboard-header">
+          <h2>Countdown dashboard</h2>
+          <p class="muted">Sorted by soonest exam date, auto-updating every second.</p>
+        </div>
+        <div id="exam-list" class="cards"></div>
+      </section>
+    </section>
+  </main>
+
+  <template id="exam-card-template">
+    <article class="exam-card">
+      <header>
+        <h3></h3>
+        <button type="button" class="tiny danger" data-action="delete">Delete</button>
+      </header>
+      <p class="date-row"></p>
+      <p class="countdown"></p>
+      <p class="notes"></p>
+    </article>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

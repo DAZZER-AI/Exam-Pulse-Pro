@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Xcode / iOS
+DerivedData/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+
+# Build artifacts
+build/
+*.ipa
+*.dSYM
+
+# Node / misc temp
+node_modules/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
