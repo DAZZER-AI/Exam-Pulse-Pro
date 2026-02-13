@@ -2,10 +2,21 @@
 
 Exam Pulse Pro is a precision exam schedule visualizer for students and academics.
 
+## Project preview
+
+### Web app preview
+
+![Exam Pulse Pro web dashboard preview](assets/previews/web-preview.svg)
+
+### iOS app preview
+
+![Exam Pulse Pro iOS dashboard preview](assets/previews/ios-preview.svg)
+
 ## Repository layout
 
 - `web/` — Offline-first web app (HTML/CSS/JS)
 - `ios/` — Native iOS SwiftUI implementation
+- `assets/previews/` — Project preview screenshots/visuals
 
 ## Product direction
 

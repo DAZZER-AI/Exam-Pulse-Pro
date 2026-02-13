@@ -1,0 +1,44 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1080" y2="1920" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080A0F"/>
+      <stop offset="1" stop-color="#15213B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="#111"/>
+  <rect x="120" y="70" width="840" height="1780" rx="90" fill="url(#bg)" stroke="#2E3C5E" stroke-width="6"/>
+  <rect x="430" y="104" width="220" height="34" rx="17" fill="#1E2A45"/>
+  <text x="180" y="200" fill="#F6F8FF" font-size="52" font-family="Inter, Arial" font-weight="700">Exam Pulse Pro</text>
+
+  <rect x="170" y="250" width="740" height="230" rx="28" fill="#1B253D" stroke="#7FA0FF" stroke-opacity="0.35"/>
+  <text x="208" y="302" fill="#AFC3F7" font-size="30" font-family="Inter, Arial">Built for students.</text>
+  <text x="208" y="352" fill="#F6F8FF" font-size="34" font-family="Inter, Arial" font-weight="600">A calm, modern exam countdown.</text>
+  <text x="208" y="404" fill="#C4D1EE" font-size="26" font-family="Inter, Arial">Timezone: Asia/Kolkata</text>
+  <text x="208" y="444" fill="#C4D1EE" font-size="26" font-family="Inter, Arial">Next Exam: Algorithms Final</text>
+
+  <rect x="170" y="510" width="740" height="300" rx="28" fill="#1B253D"/>
+  <text x="208" y="560" fill="#FFFFFF" font-size="34" font-family="Inter, Arial" font-weight="600">Add exam</text>
+  <rect x="208" y="586" width="664" height="68" rx="14" fill="#0F172A"/>
+  <text x="232" y="629" fill="#B8C7EA" font-size="26" font-family="Inter, Arial">Algorithms Final</text>
+  <rect x="208" y="670" width="664" height="68" rx="14" fill="#0F172A"/>
+  <text x="232" y="713" fill="#B8C7EA" font-size="26" font-family="Inter, Arial">12 Oct 2026 • 10:00 AM</text>
+  <rect x="208" y="750" width="664" height="44" rx="12" fill="#7FA0FF"/>
+  <text x="430" y="779" fill="#091022" font-size="24" font-family="Inter, Arial" font-weight="700">Add</text>
+
+  <rect x="170" y="840" width="740" height="430" rx="28" fill="#1B253D"/>
+  <text x="208" y="892" fill="#FFFFFF" font-size="34" font-family="Inter, Arial" font-weight="600">Countdown dashboard</text>
+
+  <rect x="208" y="920" width="664" height="145" rx="18" fill="#111A2E" stroke="#7FA0FF" stroke-opacity="0.3"/>
+  <text x="236" y="968" fill="#F6F8FF" font-size="30" font-family="Inter, Arial" font-weight="600">Algorithms Final</text>
+  <text x="236" y="1004" fill="#B8C7EA" font-size="24" font-family="Inter, Arial">Oct 12, 2026 · 10:00 AM</text>
+  <text x="236" y="1040" fill="#79E4BE" font-size="26" font-family="Inter, Arial" font-weight="700">241d 4h 20m 12s remaining</text>
+
+  <rect x="208" y="1084" width="664" height="145" rx="18" fill="#111A2E" stroke="#7FA0FF" stroke-opacity="0.3"/>
+  <text x="236" y="1132" fill="#F6F8FF" font-size="30" font-family="Inter, Arial" font-weight="600">Data Structures Practical</text>
+  <text x="236" y="1168" fill="#B8C7EA" font-size="24" font-family="Inter, Arial">Oct 21, 2026 · 2:00 PM</text>
+  <text x="236" y="1204" fill="#79E4BE" font-size="26" font-family="Inter, Arial" font-weight="700">250d 8h 20m 12s remaining</text>
+
+  <rect x="170" y="1300" width="740" height="120" rx="28" fill="#1B253D"/>
+  <rect x="208" y="1334" width="664" height="52" rx="14" fill="#A53D5A"/>
+  <text x="414" y="1368" fill="#F9E9EE" font-size="24" font-family="Inter, Arial" font-weight="700">Clear all exams</text>
+</svg>
